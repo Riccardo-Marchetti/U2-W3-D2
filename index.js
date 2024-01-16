@@ -47,7 +47,7 @@ bottone2.addEventListener("click", function (c) {
   localStorage.setItem("listadati", JSON.stringify(listadati));
 });
 
-if (sessionStorage.getItem("count") !== 0) {
+if (sessionStorage.getItem("count") !== 1) {
   let count = sessionStorage.getItem("count");
   if (count === 0) {
     count = 0;
